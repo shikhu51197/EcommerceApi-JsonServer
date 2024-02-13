@@ -1,0 +1,66 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "category": "electronics",
+        "title": "Smartphone",
+        "description": "A powerful smartphone with advanced features.",
+        "thumbnail": "smartphone-thumbnail.jpg",
+        "price": 599.99,
+        "specifications": ["5G support", "Octa-core processor", "128GB storage"],
+        "relatedProducts": [2, 3]
+      },
+      {
+        "id": 2,
+        "category": "electronics",
+        "title": "Laptop",
+        "description": "A high-performance laptop for productivity and gaming.",
+        "thumbnail": "laptop-thumbnail.jpg",
+        "price": 1299.99,
+        "specifications": ["Intel i7 processor", "16GB RAM", "512GB SSD"],
+        "relatedProducts": [1, 3]
+      },
+      {
+        "id": 3,
+        "category": "clothing",
+        "title": "Casual T-Shirt",
+        "description": "Comfortable and stylish casual t-shirt for everyday wear.",
+        "thumbnail": "tshirt-thumbnail.jpg",
+        "price": 29.99,
+        "specifications": ["100% cotton", "Available in multiple colors"],
+        "relatedProducts": [1, 2]
+      },
+      {
+        "id": 4,
+        "category": "accessories",
+        "title": "Wireless Earbuds",
+        "description": "High-quality wireless earbuds for an immersive audio experience.",
+        "thumbnail": "earbuds-thumbnail.jpg",
+        "price": 79.99,
+        "specifications": ["Bluetooth 5.0", "Noise cancellation", "20 hours battery life"],
+        "relatedProducts": [5, 6]
+      },
+      {
+        "id": 5,
+        "category": "electronics",
+        "title": "Smartwatch",
+        "description": "A feature-rich smartwatch with health and fitness tracking.",
+        "thumbnail": "smartwatch-thumbnail.jpg",
+        "price": 149.99,
+        "specifications": ["Heart rate monitor", "GPS tracking", "Water-resistant"],
+        "relatedProducts": [4, 6]
+      },
+      {
+        "id": 6,
+        "category": "electronics",
+        "title": "Gaming Mouse",
+        "description": "Sleek and customizable gaming mouse for precise control.",
+        "thumbnail": "mouse-thumbnail.jpg",
+        "price": 149.99,
+        "specifications": ["Heart rate monitor", "GPS tracking", "Water-resistant"],
+        "relatedProducts": [4, 6]
+      }
+    ]}
+  
+  
+  
