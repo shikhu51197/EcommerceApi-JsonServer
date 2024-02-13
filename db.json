@@ -56,11 +56,150 @@
         "title": "Gaming Mouse",
         "description": "Sleek and customizable gaming mouse for precise control.",
         "thumbnail": "mouse-thumbnail.jpg",
+        "price": 49.99,
+        "specifications": ["DPI adjustment", "RGB lighting", "Programmable buttons"],
+        "relatedProducts": [4, 5]
+      },
+      {
+        "id": 7,
+        "category": "clothing",
+        "title": "Sports Jacket",
+        "description": "Stylish sports jacket suitable for various outdoor activities.",
+        "thumbnail": "jacket-thumbnail.jpg",
+        "price": 79.99,
+        "specifications": ["Water-resistant", "Breathable fabric", "Adjustable cuffs"],
+        "relatedProducts": [8, 9]
+      },
+      {
+        "id": 8,
+        "category": "clothing",
+        "title": "Running Shoes",
+        "description": "High-performance running shoes for comfort and support.",
+        "thumbnail": "runningshoes-thumbnail.jpg",
+        "price": 99.99,
+        "specifications": ["Cushioned sole", "Breathable mesh", "Shock absorption"],
+        "relatedProducts": [7, 9]
+      },
+      {
+        "id": 9,
+        "category": "accessories",
+        "title": "Sunglasses",
+        "description": "Fashionable sunglasses with UV protection for a stylish look.",
+        "thumbnail": "sunglasses-thumbnail.jpg",
+        "price": 39.99,
+        "specifications": ["Polarized lenses", "Durable frame", "100% UV protection"],
+        "relatedProducts": [7, 8]
+      },
+      {
+        "id": 10,
+        "category": "electronics",
+        "title": "4K TV",
+        "description": "Immersive 4K TV for a cinematic viewing experience.",
+        "thumbnail": "tv-thumbnail.jpg",
+        "price": 899.99,
+        "specifications": ["65-inch display", "Smart TV functionality", "Dolby Vision"],
+        "relatedProducts": [11, 12]
+      },
+      {
+        "id": 11,
+        "category": "electronics",
+        "title": "Soundbar",
+        "description": "Enhance your audio experience with a powerful soundbar.",
+        "thumbnail": "soundbar-thumbnail.jpg",
+        "price": 199.99,
+        "specifications": ["Wireless subwoofer", "Bluetooth connectivity", "Surround sound"],
+        "relatedProducts": [10, 12]
+      },
+      {
+        "id": 12,
+        "category": "accessories",
+        "title": "Camera Bag",
+        "description": "Durable and spacious camera bag for photographers on the go.",
+        "thumbnail": "camerabag-thumbnail.jpg",
+        "price": 59.99,
+        "specifications": ["Padded compartments", "Water-resistant", "Adjustable dividers"],
+        "relatedProducts": [10, 11]
+      },
+      {
+        "id": 13,
+        "category": "clothing",
+        "title": "Hiking Boots",
+        "description": "Sturdy hiking boots for outdoor adventures and exploration.",
+        "thumbnail": "hikingboots-thumbnail.jpg",
+        "price": 129.99,
+        "specifications": ["Waterproof", "Vibram sole", "Ankle support"],
+        "relatedProducts": [14, 15]
+      },
+      {
+        "id": 14,
+        "category": "clothing",
+        "title": "Winter Jacket",
+        "description": "Insulated winter jacket for warmth and comfort in cold weather.",
+        "thumbnail": "winterjacket-thumbnail.jpg",
         "price": 149.99,
-        "specifications": ["Heart rate monitor", "GPS tracking", "Water-resistant"],
-        "relatedProducts": [4, 6]
+        "specifications": ["Insulated lining", "Adjustable hood", "Windproof"],
+        "relatedProducts": [13, 15]
+      },
+      {
+        "id": 15,
+        "category": "accessories",
+        "title": "Backpack",
+        "description": "Spacious backpack for daily use or outdoor activities.",
+        "thumbnail": "backpack-thumbnail.jpg",
+        "price": 49.99,
+        "specifications": ["Laptop compartment", "Multiple pockets", "Water-resistant"],
+        "relatedProducts": [13, 14]
+      },
+      {
+        "id": 16,
+        "category": "electronics",
+        "title": "Wireless Charger",
+        "description": "Convenient wireless charger for your compatible devices.",
+        "thumbnail": "wirelesscharger-thumbnail.jpg",
+        "price": 29.99,
+        "specifications": ["Qi wireless charging", "Compact design", "LED indicator"],
+        "relatedProducts": [17, 18]
+      },
+      {
+        "id": 17,
+        "category": "electronics",
+        "title": "Bluetooth Speaker",
+        "description": "Portable Bluetooth speaker for on-the-go music enjoyment.",
+        "thumbnail": "bluetoothspeaker-thumbnail.jpg",
+        "price": 39.99,
+        "specifications": ["IPX7 waterproof", "10-hour battery life", "Built-in microphone"],
+        "relatedProducts": [16, 18]
+      },
+      {
+        "id": 18,
+        "category": "accessories",
+        "title": "Fitness Tracker",
+        "description": "Track your fitness goals with a feature-rich fitness tracker.",
+        "thumbnail": "fitnesstracker-thumbnail.jpg",
+        "price": 49.99,
+        "specifications": ["Heart rate monitor", "Sleep tracking", "Water-resistant"],
+        "relatedProducts": [16, 17]
+      },
+      {
+        "id": 19,
+        "category": "clothing",
+        "title": "Denim Jeans",
+        "description": "Classic denim jeans for a timeless and versatile look.",
+        "thumbnail": "denimjeans-thumbnail.jpg",
+        "price": 39.99,
+        "specifications": ["Regular fit", "Available in various washes", "Durable denim"],
+        "relatedProducts": [20]
+      },
+      {
+        "id": 20,
+        "category": "clothing",
+        "title": "Formal Shirt",
+        "description": "Elegant formal shirt for professional and special occasions.",
+        "thumbnail": "formalshirt-thumbnail.jpg",
+        "price": 49.99,
+        "specifications": ["Slim fit", "Cotton blend", "Available in multiple colors"],
+        "relatedProducts": [19]
       }
-    ]}
-  
-  
+    ]
+  }
   
