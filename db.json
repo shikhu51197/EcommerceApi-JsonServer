@@ -8,7 +8,8 @@
         "thumbnail": "smartphone-thumbnail.jpg",
         "price": 599.99,
         "specifications": ["5G support", "Octa-core processor", "128GB storage"],
-        "relatedProducts": [2, 3]
+        "relatedProducts": [2, 3],
+        "popularity": 9.5
       },
       {
         "id": 2,
@@ -18,7 +19,8 @@
         "thumbnail": "laptop-thumbnail.jpg",
         "price": 1299.99,
         "specifications": ["Intel i7 processor", "16GB RAM", "512GB SSD"],
-        "relatedProducts": [1, 3]
+        "relatedProducts": [1, 3],
+        "popularity": 8.7
       },
       {
         "id": 3,
@@ -28,7 +30,8 @@
         "thumbnail": "tshirt-thumbnail.jpg",
         "price": 29.99,
         "specifications": ["100% cotton", "Available in multiple colors"],
-        "relatedProducts": [1, 2]
+        "relatedProducts": [1, 2],
+        "popularity": 7.2
       },
       {
         "id": 4,
@@ -38,7 +41,8 @@
         "thumbnail": "earbuds-thumbnail.jpg",
         "price": 79.99,
         "specifications": ["Bluetooth 5.0", "Noise cancellation", "20 hours battery life"],
-        "relatedProducts": [5, 6]
+        "relatedProducts": [5, 6],
+        "popularity": 8.0
       },
       {
         "id": 5,
@@ -48,7 +52,8 @@
         "thumbnail": "smartwatch-thumbnail.jpg",
         "price": 149.99,
         "specifications": ["Heart rate monitor", "GPS tracking", "Water-resistant"],
-        "relatedProducts": [4, 6]
+        "relatedProducts": [4, 6],
+        "popularity": 7.8
       },
       {
         "id": 6,
@@ -58,7 +63,8 @@
         "thumbnail": "mouse-thumbnail.jpg",
         "price": 49.99,
         "specifications": ["DPI adjustment", "RGB lighting", "Programmable buttons"],
-        "relatedProducts": [4, 5]
+        "relatedProducts": [4, 5],
+        "popularity": 8.5
       },
       {
         "id": 7,
@@ -68,7 +74,8 @@
         "thumbnail": "jacket-thumbnail.jpg",
         "price": 79.99,
         "specifications": ["Water-resistant", "Breathable fabric", "Adjustable cuffs"],
-        "relatedProducts": [8, 9]
+        "relatedProducts": [8, 9],
+        "popularity": 7.9
       },
       {
         "id": 8,
@@ -78,7 +85,8 @@
         "thumbnail": "runningshoes-thumbnail.jpg",
         "price": 99.99,
         "specifications": ["Cushioned sole", "Breathable mesh", "Shock absorption"],
-        "relatedProducts": [7, 9]
+        "relatedProducts": [7, 9],
+        "popularity": 8.2
       },
       {
         "id": 9,
@@ -88,7 +96,8 @@
         "thumbnail": "sunglasses-thumbnail.jpg",
         "price": 39.99,
         "specifications": ["Polarized lenses", "Durable frame", "100% UV protection"],
-        "relatedProducts": [7, 8]
+        "relatedProducts": [7, 8],
+        "popularity": 7.5
       },
       {
         "id": 10,
@@ -98,7 +107,8 @@
         "thumbnail": "tv-thumbnail.jpg",
         "price": 899.99,
         "specifications": ["65-inch display", "Smart TV functionality", "Dolby Vision"],
-        "relatedProducts": [11, 12]
+        "relatedProducts": [11, 12],
+        "popularity": 9.0
       },
       {
         "id": 11,
@@ -108,7 +118,8 @@
         "thumbnail": "soundbar-thumbnail.jpg",
         "price": 199.99,
         "specifications": ["Wireless subwoofer", "Bluetooth connectivity", "Surround sound"],
-        "relatedProducts": [10, 12]
+        "relatedProducts": [10, 12],
+        "popularity": 8.8
       },
       {
         "id": 12,
@@ -118,7 +129,8 @@
         "thumbnail": "camerabag-thumbnail.jpg",
         "price": 59.99,
         "specifications": ["Padded compartments", "Water-resistant", "Adjustable dividers"],
-        "relatedProducts": [10, 11]
+        "relatedProducts": [10, 11],
+        "popularity": 8.3
       },
       {
         "id": 13,
@@ -128,7 +140,8 @@
         "thumbnail": "hikingboots-thumbnail.jpg",
         "price": 129.99,
         "specifications": ["Waterproof", "Vibram sole", "Ankle support"],
-        "relatedProducts": [14, 15]
+        "relatedProducts": [14, 15],
+        "popularity": 7.7
       },
       {
         "id": 14,
@@ -138,7 +151,8 @@
         "thumbnail": "winterjacket-thumbnail.jpg",
         "price": 149.99,
         "specifications": ["Insulated lining", "Adjustable hood", "Windproof"],
-        "relatedProducts": [13, 15]
+        "relatedProducts": [13, 15],
+        "popularity": 7.4
       },
       {
         "id": 15,
@@ -148,7 +162,8 @@
         "thumbnail": "backpack-thumbnail.jpg",
         "price": 49.99,
         "specifications": ["Laptop compartment", "Multiple pockets", "Water-resistant"],
-        "relatedProducts": [13, 14]
+        "relatedProducts": [13, 14],
+        "popularity": 8.1
       },
       {
         "id": 16,
@@ -158,7 +173,8 @@
         "thumbnail": "wirelesscharger-thumbnail.jpg",
         "price": 29.99,
         "specifications": ["Qi wireless charging", "Compact design", "LED indicator"],
-        "relatedProducts": [17, 18]
+        "relatedProducts": [17, 18],
+        "popularity": 7.9
       },
       {
         "id": 17,
@@ -168,7 +184,8 @@
         "thumbnail": "bluetoothspeaker-thumbnail.jpg",
         "price": 39.99,
         "specifications": ["IPX7 waterproof", "10-hour battery life", "Built-in microphone"],
-        "relatedProducts": [16, 18]
+        "relatedProducts": [16, 18],
+        "popularity": 8.5
       },
       {
         "id": 18,
@@ -178,7 +195,8 @@
         "thumbnail": "fitnesstracker-thumbnail.jpg",
         "price": 49.99,
         "specifications": ["Heart rate monitor", "Sleep tracking", "Water-resistant"],
-        "relatedProducts": [16, 17]
+        "relatedProducts": [16, 17],
+        "popularity": 8.2
       },
       {
         "id": 19,
@@ -188,7 +206,8 @@
         "thumbnail": "denimjeans-thumbnail.jpg",
         "price": 39.99,
         "specifications": ["Regular fit", "Available in various washes", "Durable denim"],
-        "relatedProducts": [20]
+        "relatedProducts": [20],
+        "popularity": 7.0
       },
       {
         "id": 20,
@@ -198,7 +217,8 @@
         "thumbnail": "formalshirt-thumbnail.jpg",
         "price": 49.99,
         "specifications": ["Slim fit", "Cotton blend", "Available in multiple colors"],
-        "relatedProducts": [19]
+        "relatedProducts": [19],
+        "popularity": 7.6
       }
     ]
   }
