@@ -128,10 +128,14 @@ Get related resources:
     
     json-server --watch db.json --middlewares middleware.js
 
-CLI Options
-See all CLI options:
+# CLI Options
 
-json-server --help
+         See all CLI options:
+         
+         json-server --help
 
 # Contributing
 Contributions are welcome! Feel free to open issues or pull requests for any improvements or additional features.
+
+
+ <h1 align="center" >THANKYOU</h1>
