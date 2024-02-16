@@ -1,243 +1,567 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "category": "electronics",
-        "title": "Smartphone",
-        "description": "A powerful smartphone with advanced features.",
-        "thumbnail": "https://source.unsplash.com/random/400x300?smartphone",
-        "price": 599.99,
-        "specifications": ["5G support", "Octa-core processor", "128GB storage"],
-        "popularity": 9.5,
-        "relatedProducts": [
-          {
-            "id": 2,
-            "title": "Related Product 1",
-            "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
-            "price": 599.99,
-            "description": "A powerful smartphone with advanced features.",
-            "specifications": ["5G support", "Octa-core processor", "128GB storage"]
-          },
-          {
-            "id": 3,
-            "title": "Related Product 2",
-            "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
-            "description": "A powerful smartphone with advanced features.",
-            "price": 599.99,
-            "specifications": ["5G support", "Octa-core processor", "128GB storage"]
-          }
-        ]
-      },
-      
-      {
-        "id": 2,
-        "category": "electronics",
-        "title": "Laptop",
-        "description": "A high-performance laptop for productivity and gaming.",
-        "thumbnail": "laptop-thumbnail.jpg",
-        "price": 1299.99,
-        "specifications": ["Intel i7 processor", "16GB RAM", "512GB SSD"],
-        "relatedProducts": [1, 3],
-        "popularity": 8.7
-      },
-      {
-        "id": 3,
-        "category": "clothing",
-        "title": "Casual T-Shirt",
-        "description": "Comfortable and stylish casual t-shirt for everyday wear.",
-        "thumbnail": "tshirt-thumbnail.jpg",
-        "price": 29.99,
-        "specifications": ["100% cotton", "Available in multiple colors"],
-        "relatedProducts": [1, 2],
-        "popularity": 7.2
-      },
-      {
-        "id": 4,
-        "category": "accessories",
-        "title": "Wireless Earbuds",
-        "description": "High-quality wireless earbuds for an immersive audio experience.",
-        "thumbnail": "earbuds-thumbnail.jpg",
-        "price": 79.99,
-        "specifications": ["Bluetooth 5.0", "Noise cancellation", "20 hours battery life"],
-        "relatedProducts": [5, 6],
-        "popularity": 8.0
-      },
-      {
-        "id": 5,
-        "category": "electronics",
-        "title": "Smartwatch",
-        "description": "A feature-rich smartwatch with health and fitness tracking.",
-        "thumbnail": "smartwatch-thumbnail.jpg",
-        "price": 149.99,
-        "specifications": ["Heart rate monitor", "GPS tracking", "Water-resistant"],
-        "relatedProducts": [4, 6],
-        "popularity": 7.8
-      },
-      {
-        "id": 6,
-        "category": "electronics",
-        "title": "Gaming Mouse",
-        "description": "Sleek and customizable gaming mouse for precise control.",
-        "thumbnail": "mouse-thumbnail.jpg",
-        "price": 49.99,
-        "specifications": ["DPI adjustment", "RGB lighting", "Programmable buttons"],
-        "relatedProducts": [4, 5],
-        "popularity": 8.5
-      },
-      {
-        "id": 7,
-        "category": "clothing",
-        "title": "Sports Jacket",
-        "description": "Stylish sports jacket suitable for various outdoor activities.",
-        "thumbnail": "jacket-thumbnail.jpg",
-        "price": 79.99,
-        "specifications": ["Water-resistant", "Breathable fabric", "Adjustable cuffs"],
-        "relatedProducts": [8, 9],
-        "popularity": 7.9
-      },
-      {
-        "id": 8,
-        "category": "clothing",
-        "title": "Running Shoes",
-        "description": "High-performance running shoes for comfort and support.",
-        "thumbnail": "runningshoes-thumbnail.jpg",
-        "price": 99.99,
-        "specifications": ["Cushioned sole", "Breathable mesh", "Shock absorption"],
-        "relatedProducts": [7, 9],
-        "popularity": 8.2
-      },
-      {
-        "id": 9,
-        "category": "accessories",
-        "title": "Sunglasses",
-        "description": "Fashionable sunglasses with UV protection for a stylish look.",
-        "thumbnail": "sunglasses-thumbnail.jpg",
-        "price": 39.99,
-        "specifications": ["Polarized lenses", "Durable frame", "100% UV protection"],
-        "relatedProducts": [7, 8],
-        "popularity": 7.5
-      },
-      {
-        "id": 10,
-        "category": "electronics",
-        "title": "4K TV",
-        "description": "Immersive 4K TV for a cinematic viewing experience.",
-        "thumbnail": "tv-thumbnail.jpg",
-        "price": 899.99,
-        "specifications": ["65-inch display", "Smart TV functionality", "Dolby Vision"],
-        "relatedProducts": [11, 12],
-        "popularity": 9.0
-      },
-      {
-        "id": 11,
-        "category": "electronics",
-        "title": "Soundbar",
-        "description": "Enhance your audio experience with a powerful soundbar.",
-        "thumbnail": "soundbar-thumbnail.jpg",
-        "price": 199.99,
-        "specifications": ["Wireless subwoofer", "Bluetooth connectivity", "Surround sound"],
-        "relatedProducts": [10, 12],
-        "popularity": 8.8
-      },
-      {
-        "id": 12,
-        "category": "accessories",
-        "title": "Camera Bag",
-        "description": "Durable and spacious camera bag for photographers on the go.",
-        "thumbnail": "camerabag-thumbnail.jpg",
-        "price": 59.99,
-        "specifications": ["Padded compartments", "Water-resistant", "Adjustable dividers"],
-        "relatedProducts": [10, 11],
-        "popularity": 8.3
-      },
-      {
-        "id": 13,
-        "category": "clothing",
-        "title": "Hiking Boots",
-        "description": "Sturdy hiking boots for outdoor adventures and exploration.",
-        "thumbnail": "hikingboots-thumbnail.jpg",
-        "price": 129.99,
-        "specifications": ["Waterproof", "Vibram sole", "Ankle support"],
-        "relatedProducts": [14, 15],
-        "popularity": 7.7
-      },
-      {
-        "id": 14,
-        "category": "clothing",
-        "title": "Winter Jacket",
-        "description": "Insulated winter jacket for warmth and comfort in cold weather.",
-        "thumbnail": "winterjacket-thumbnail.jpg",
-        "price": 149.99,
-        "specifications": ["Insulated lining", "Adjustable hood", "Windproof"],
-        "relatedProducts": [13, 15],
-        "popularity": 7.4
-      },
-      {
-        "id": 15,
-        "category": "accessories",
-        "title": "Backpack",
-        "description": "Spacious backpack for daily use or outdoor activities.",
-        "thumbnail": "backpack-thumbnail.jpg",
-        "price": 49.99,
-        "specifications": ["Laptop compartment", "Multiple pockets", "Water-resistant"],
-        "relatedProducts": [13, 14],
-        "popularity": 8.1
-      },
-      {
-        "id": 16,
-        "category": "electronics",
-        "title": "Wireless Charger",
-        "description": "Convenient wireless charger for your compatible devices.",
-        "thumbnail": "wirelesscharger-thumbnail.jpg",
-        "price": 29.99,
-        "specifications": ["Qi wireless charging", "Compact design", "LED indicator"],
-        "relatedProducts": [17, 18],
-        "popularity": 7.9
-      },
-      {
-        "id": 17,
-        "category": "electronics",
-        "title": "Bluetooth Speaker",
-        "description": "Portable Bluetooth speaker for on-the-go music enjoyment.",
-        "thumbnail": "bluetoothspeaker-thumbnail.jpg",
-        "price": 39.99,
-        "specifications": ["IPX7 waterproof", "10-hour battery life", "Built-in microphone"],
-        "relatedProducts": [16, 18],
-        "popularity": 8.5
-      },
-      {
+  "products": [
+    {
+      "id": 1,
+      "category": "electronics",
+      "title": "Smartphone",
+      "description": "A powerful smartphone with advanced features.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?smartphone",
+      "price": 599.99,
+      "specifications": ["5G support", "Octa-core processor", "128GB storage"],
+      "popularity": 9.5,
+      "relatedProducts": [
+        {
+          "id": 2,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "price": 599.99,
+          "description": "A powerful smartphone with advanced features.",
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 3,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "electronics",
+      "title": "Laptop",
+      "description": "A high-performance laptop for productivity and gaming.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?laptop",
+      "price": 1299.99,
+      "specifications": ["Intel i7 processor", "16GB RAM", "512GB SSD"],
+      "relatedProducts": [
+        {
+          "id": 1,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "price": 599.99,
+          "description": "A powerful smartphone with advanced features.",
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 3,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 8.7
+    },
+    {
+      "id": 3,
+      "category": "clothing",
+      "title": "Casual T-Shirt",
+      "description": "Comfortable and stylish casual t-shirt for everyday wear.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?tshirt",
+      "price": 29.99,
+      "specifications": ["100% cotton", "Available in multiple colors"],
+      "relatedProducts": [
+        {
+          "id": 1,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 2,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 7.2
+    },
+    {
+      "id": 4,
+      "category": "accessories",
+      "title": "Wireless Earbuds",
+      "description": "High-quality wireless earbuds for an immersive audio experience.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?earbuds",
+      "price": 79.99,
+      "specifications": ["Bluetooth 5.0", "Noise cancellation", "20 hours battery life"],
+      "relatedProducts": [
+        {
+          "id": 5,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 6,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 8.0
+    },
+    {
+      "id": 5,
+      "category": "electronics",
+      "title": "Smartwatch",
+      "description": "A feature-rich smartwatch with health and fitness tracking.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?smartwatch",
+      "price": 149.99,
+      "specifications": ["Heart rate monitor", "GPS tracking", "Water-resistant"],
+      "relatedProducts": [
+        {
+          "id": 4,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 6,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 7.8
+    },
+    {
+      "id": 6,
+      "category": "electronics",
+      "title": "Gaming Mouse",
+      "description": "Sleek and customizable gaming mouse for precise control.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?mouse",
+      "price": 49.99,
+      "specifications": ["DPI adjustment", "RGB lighting", "Programmable buttons"],
+      "relatedProducts": [
+        {
+          "id": 4,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 5,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 8.5
+    },
+    {
+      "id": 7,
+      "category": "clothing",
+      "title": "Sports Jacket",
+      "description": "Stylish sports jacket suitable for various outdoor activities.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?jacket",
+      "price": 79.99,
+      "specifications": ["Water-resistant", "Breathable fabric", "Adjustable cuffs"],
+      "relatedProducts": [
+        {
+          "id": 8,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 9,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 7.9
+    },
+    {
+      "id": 8,
+      "category": "clothing",
+      "title": "Running Shoes",
+      "description": "High-performance running shoes for comfort and support.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?runningshoes",
+      "price": 99.99,
+      "specifications": ["Cushioned sole", "Breathable mesh", "Shock absorption"],
+      "relatedProducts": [
+        {
+          "id": 7,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 9,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 8.2
+    },
+    {
+      "id": 9,
+      "category": "accessories",
+      "title": "Sunglasses",
+      "description": "Fashionable sunglasses with UV protection for a stylish look.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?sunglasses",
+      "price": 39.99,
+      "specifications": ["Polarized lenses", "Durable frame", "100% UV protection"],
+      "relatedProducts": [
+        {
+          "id": 7,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 8,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 7.5
+    },   
+    {
+      "id": 10,
+      "category": "electronics",
+      "title": "4K TV",
+      "description": "Immersive 4K TV for a cinematic viewing experience.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?tv",
+      "price": 899.99,
+      "specifications": ["65-inch display", "Smart TV functionality", "Dolby Vision"],
+      "relatedProducts": [
+        {
+          "id": 11,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 12,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 9.0
+    },
+    {
+      "id": 11,
+      "category": "electronics",
+      "title": "Soundbar",
+      "description": "Enhance your audio experience with a powerful soundbar.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?soundbar",
+      "price": 199.99,
+      "specifications": ["Wireless subwoofer", "Bluetooth connectivity", "Surround sound"],
+      "relatedProducts": [
+        {
+          "id": 10,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 12,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 8.8
+    },
+    {
+      "id": 12,
+      "category": "accessories",
+      "title": "Camera Bag",
+      "description": "Durable and spacious camera bag for photographers on the go.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?camerabag",
+      "price": 59.99,
+      "specifications": ["Padded compartments", "Water-resistant", "Adjustable dividers"],
+      "relatedProducts": [
+        {
+          "id": 10,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 11,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 8.3
+    },
+    {
+      "id": 13,
+      "category": "clothing",
+      "title": "Hiking Boots",
+      "description": "Sturdy hiking boots for outdoor adventures and exploration.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?hikingboots",
+      "price": 129.99,
+      "specifications": ["Waterproof", "Vibram sole", "Ankle support"],
+      "relatedProducts": [
+        {
+          "id": 14,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 15,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 7.7
+    },
+    {
+      "id": 14,
+      "category": "clothing",
+      "title": "Winter Jacket",
+      "description": "Insulated winter jacket for warmth and comfort in cold weather.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?winterjacket",
+      "price": 149.99,
+      "specifications": ["Insulated lining", "Adjustable hood", "Windproof"],
+      "relatedProducts": [
+        {
+          "id": 13,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 15,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 7.4
+    },
+    {
+      "id": 15,
+      "category": "accessories",
+      "title": "Backpack",
+      "description": "Spacious backpack for daily use or outdoor activities.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?backpack",
+      "price": 49.99,
+      "specifications": ["Laptop compartment", "Multiple pockets", "Water-resistant"],
+      "relatedProducts": [
+        {
+          "id": 13,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 14,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 8.1
+    },
+    {
+      "id": 16,
+      "category": "electronics",
+      "title": "Wireless Charger",
+      "description": "Convenient wireless charger for your compatible devices.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?wirelesscharger",
+      "price": 29.99,
+      "specifications": ["Qi wireless charging", "Compact design", "LED indicator"],
+      "relatedProducts": [
+        {
+          "id": 17,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 18,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 7.9
+    },
+    {
+      "id": 17,
+      "category": "electronics",
+      "title": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker for on-the-go music enjoyment.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?bluetoothspeaker",
+      "price": 39.99,
+      "specifications": ["IPX7 waterproof", "10-hour battery life", "Built-in microphone"],
+      "relatedProducts": [
+        {
+          "id": 16,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 18,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 8.5
+    },
+    {
+      "id": 18,
+      "category": "accessories",
+      "title": "Fitness Tracker",
+      "description": "Track your fitness goals with a feature-rich fitness tracker.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?fitnesstracker",
+      "price": 49.99,
+      "specifications": ["Heart rate monitor", "Sleep tracking", "Water-resistant"],
+      "relatedProducts": [
+        {
+          "id": 16,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 17,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 8.2
+    },
+    {
+      "id": 19,
+      "category": "clothing",
+      "title": "Denim Jeans",
+      "description": "Classic denim jeans for a timeless and versatile look.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?denimjeans",
+      "price": 39.99,
+      "specifications": ["Regular fit", "Available in various washes", "Durable denim"],
+      "relatedProducts": [
+        {
         "id": 18,
-        "category": "accessories",
-        "title": "Fitness Tracker",
-        "description": "Track your fitness goals with a feature-rich fitness tracker.",
-        "thumbnail": "fitnesstracker-thumbnail.jpg",
-        "price": 49.99,
-        "specifications": ["Heart rate monitor", "Sleep tracking", "Water-resistant"],
-        "relatedProducts": [16, 17],
-        "popularity": 8.2
-      },
-      {
-        "id": 19,
-        "category": "clothing",
-        "title": "Denim Jeans",
-        "description": "Classic denim jeans for a timeless and versatile look.",
-        "thumbnail": "denimjeans-thumbnail.jpg",
-        "price": 39.99,
-        "specifications": ["Regular fit", "Available in various washes", "Durable denim"],
-        "relatedProducts": [20],
-        "popularity": 7.0
-      },
-      {
-        "id": 20,
-        "category": "clothing",
-        "title": "Formal Shirt",
-        "description": "Elegant formal shirt for professional and special occasions.",
-        "thumbnail": "formalshirt-thumbnail.jpg",
-        "price": 49.99,
-        "specifications": ["Slim fit", "Cotton blend", "Available in multiple colors"],
-        "relatedProducts": [19],
-        "popularity": 7.6
-      }
-    ]
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 19,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 8.2
+    },
+    {
+      "id": 20,
+      "category": "clothing",
+      "title": "Denim Jeans",
+      "description": "Classic denim jeans for a timeless and versatile look.",
+      "thumbnail": "https://source.unsplash.com/random/400x300?denimjeans",
+      "price": 39.99,
+      "specifications": ["Regular fit", "Available in various washes", "Durable denim"],
+      "relatedProducts": [
+        {
+          "id": 19,
+          "title": "Related Product 1",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        },
+        {
+          "id": 20,
+          "title": "Related Product 2",
+          "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+          "description": "A powerful smartphone with advanced features.",
+          "price": 599.99,
+          "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+        }
+      ],
+      "popularity": 8.2
+    }
+  ]
   }
   
+        
+         
