@@ -5,12 +5,30 @@
         "category": "electronics",
         "title": "Smartphone",
         "description": "A powerful smartphone with advanced features.",
-        "thumbnail": "smartphone-thumbnail.jpg",
+        "thumbnail": "https://source.unsplash.com/random/400x300?smartphone",
         "price": 599.99,
         "specifications": ["5G support", "Octa-core processor", "128GB storage"],
-        "relatedProducts": [2, 3],
-        "popularity": 9.5
+        "popularity": 9.5,
+        "relatedProducts": [
+          {
+            "id": 2,
+            "title": "Related Product 1",
+            "thumbnail": "https://source.unsplash.com/random/400x300?related-product-1",
+            "price": 599.99,
+            "description": "A powerful smartphone with advanced features.",
+            "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+          },
+          {
+            "id": 3,
+            "title": "Related Product 2",
+            "thumbnail": "https://source.unsplash.com/random/400x300?related-product-2",
+            "description": "A powerful smartphone with advanced features.",
+            "price": 599.99,
+            "specifications": ["5G support", "Octa-core processor", "128GB storage"]
+          }
+        ]
       },
+      
       {
         "id": 2,
         "category": "electronics",
